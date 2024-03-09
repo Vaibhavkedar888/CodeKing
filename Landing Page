@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            background-image: url(https://img.freepik.com/premium-photo/top-view-coffee-cup-keyboard-stationery-green-background_35674-9780.jpg);
+            background-size: 100%;
+            color: #000000;
+            padding: 20px 0;
+        }
+        
+        header nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        
+        header nav ul li a {
+            color: #070606;
+            text-decoration: none;
+        }
+        
+        section {
+            padding: 40px 0;
+        }
+        
+        #hero {
+            text-align: center;
+        }
+        
+        #hero h2 {
+            margin-bottom: 20px;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        
+        #about, #services, #contact {
+            background-color: #fff;
+            text-align: center;
+        }
+        
+        .service {
+            margin-bottom: 20px;
+        }
+        
+        footer {
+            background-color: #29a3a3;
+            color: #000000;
+            text-align: center;
+            padding: 10px 0;
+        }
+        #contact {
+            padding: 5rem 0;
+            background: rgb(226, 226, 226);
+          }
+          
+          .contact-container {
+            display: flex;
+            background: #fff;
+          }
+          
+          .contact-img {
+            width: 50%;
+          }
+          
+          .contact-img img {
+            display: block;
+            height: 400px;
+            width: 100%;
+            object-position: center;
+            object-fit: cover;
+          }
+          
+          .form-container {
+            padding: 1rem;
+            width: 50%;
+            margin: auto;
+          }
+          
+          .form-container input {
+            display: block;
+            width: 100%;
+            border: none;
+            border-bottom: 2px solid #ddd;
+            padding: 1rem 0;
+            box-shadow: none;
+            outline: none;
+            margin-bottom: 1rem;
+            color: #444;
+            font-weight: 500;
+          }
+          
+          .form-container textarea {
+            display: block;
+            width: 100%;
+            border: none;
+            border-bottom: 2px solid #ddd;
+            color: #444;
+            outline: none;
+            padding: 1rem 0;
+            resize: none;
+          }
+          
+          .form-container h2 {
+            font-size: 2.7rem;
+            font-weight: 500;
+            color: #444;
+            margin-bottom: 1rem;
+            margin-top: -1.2rem;
+          }
+          
+          .form-container a {
+            font-size: 1.3rem;
+          }
+          
+          #footer h2 {
+            text-align: center;
+            font-size: 1.8rem;
+            padding: 2.6rem;
+            font-weight: 500;
+            color: #fff;
+            background: rgb(71, 143, 141);
+          }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1> Website Landing Page</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <h2>Welcome to Your Website</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi blanditiis delectus, dolorum rerum mollitia reiciendis nostrum itaque corporis illo, debitis ducimus possimus eum ullam provident, tempore eius vitae fugit laborum saepe ea? Reprehenderit quo repellendus vero autem, deleniti aliquam dolore rem velit eveniet magni ab, animi quis odio reiciendis, expedita alias iste sit voluptas repudiandae! Sunt minima nam, consectetur perspiciatis dolorum, vel sit consequatur, ducimus molestias earum in optio quae. Temporibus accusamus incidunt deserunt, quam perspiciatis vero libero dolor, itaque impedit exercitationem quae repudiandae assumenda dicta sint voluptatem cupiditate. Delectus placeat exercitationem, atque commodi voluptatum obcaecati cum. Doloremque hic explicabo adipisci autem sed dignissimos, excepturi maiores repellat mollitia dolorum nobis voluptatum nulla. Quas, repellat consequatur et in eaque sunt officia distinctio optio excepturi tempora adipisci earum numquam? Modi excepturi non et aperiam doloribus alias voluptates reiciendis explicabo animi architecto ullam id mollitia fugiat a eligendi, aliquid dicta fuga recusandae provident?</p>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRD4E47-wZMi6WayBTCB--zoAeUxMrhLxQCFw&usqp=CAU" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda veritatis quaerat vitae libero praesentium, doloremque laboriosam rem accusantium dicta aperiam enim obcaecati numquam velit dolor minima voluptatibus placeat distinctio animi iure exercitationem quae. Alias voluptas, enim necessitatibus sapiente blanditiis esse at? A nisi iusto neque quidem? Nostrum nesciunt beatae minus ad voluptatem dolore eaque in rerum, atque mollitia ea fugiat fugit perferendis commodi dolor vitae odit. Culpa non tempore laudantium placeat veniam deleniti numquam reiciendis sed fuga praesentium quae, qui possimus exercitationem voluptatibus sapiente laborum ipsam dolorem itaque perferendis neque nihil ratione eaque officia. Ex modi facere delectus adipisci quisquam.</p>
+            <a href="#contact" class="cta-button">Get Started</a>
+        </div>
+    </section>
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum optio a eaque praesentium, eligendi, quos distinctio nam repudiandae blanditiis vitae id saepe excepturi adipisci, vel temporibus ad placeat corporis quidem eveniet dignissimos sunt molestiae quas deleniti. Ipsa eligendi officiis ab? Facilis blanditiis placeat nihil molestiae. Possimus quam dolores sunt eos quae? Ab, sunt eos autem voluptatum explicabo modi ullam ex incidunt totam odit labore maxime sint voluptatibus quidem facere, debitis eaque exercitationem voluptates consectetur, suscipit dolor sequi nemo? Tempora, suscipit voluptas possimus rem explicabo id odio modi nisi excepturi harum sit aspernatur omnis doloremque eius corporis esse ut? Quas quasi eos doloremque at, dolorem praesentium illum, cupiditate numquam officiis iure eligendi neque fuga saepe inventore quod animi, vel temporibus consequuntur ex! Cumque fuga nam, autem illo eligendi sint iste delectus ad repellendus impedit, dolor praesentium distinctio dignissimos ipsam, pariatur beatae mollitia ipsa ratione placeat architecto? Odio enim similique temporibus dignissimos consectetur, praesentium sit explicabo repellat. Atque, consequuntur iure libero nisi quasi amet nostrum dolorum eligendi repellat error! Ullam inventore, ipsa maiores vero rerum sunt omnis quis tempore labore accusamus asperiores exercitationem esse? Voluptates sit corrupti adipisci nam voluptatem sapiente molestiae porro, quibusdam commodi dolore, beatae expedita iste qui, architecto quidem?</p>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service">
+                <h3>Service 1</h3>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRv8oLjL5FeOLKDZgDnQ_jPMfqphIFXCr15A&usqp=CAU" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor autem necessitatibus doloribus et nobis perspiciatis blanditiis eveniet molestiae dolorum, aut provident sequi repellat ipsum commodi nihil iusto quaerat libero totam voluptates sint veritatis dicta debitis culpa? Eveniet necessitatibus qui cumque.</p>
+            </div>
+            <div class="service">
+                <h3>Service 2</h3>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpTCUMwmlFVE4kGR6dAWod2O75mcV4nM9skQ&usqp=CAU" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates harum, voluptatem fugit optio ullam mollitia aliquam, ab soluta corrupti alias laudantium quod ut laborum nulla unde id molestiae modi dolorem.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2><p class="low-contrast-text">
+                <div class="form-container">
+                  <h2>Contact Us</h2>
+                  <input type="text" placeholder="Your Name" />
+                  <input type="email" placeholder="E-Mail" />
+                  <textarea
+                    cols="30"
+                    rows="6"
+                    placeholder="Type Your Message"
+                  ></textarea>
+                  <a href="#" class="submit">Submit</a>
+                </div>
+              </div>
+                  
+               </p></h2>
+            
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Vaibhav Kedar Ltd. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
+        
